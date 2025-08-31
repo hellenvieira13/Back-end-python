@@ -21,7 +21,6 @@ for palavra in palavras:
         conta_comum += 1
     print(f"{palavra} → {', '.join(categorias)}")
 
-# Resumo final
 print("\nResumo:")
 print(f"Palavras que começam com A: {conta_a}")
 print(f"Palíndromos: {conta_palin}")
